@@ -25,13 +25,10 @@ create table grupe
 	predavac varchar (50)
 	--FOREIGN KEY (smjer_id) REFERENCES smjerovi(sifra)
 	);
-create table clan
+create table clanovi
 	(
-	grupa_id int,
-	polaznik_id varchar (20),
-	--FOREIGN KEY (grupa_id) REFERENCES grupe(sifra),
-	--FOREIGN KEY (polaznik_id) REFERENCES polaznici(sifra),
-	PRIMARY KEY (grupa_id, polaznik_id)
+	grupa int,
+	polaznik varchar (20),
 	);
 
-	--drop table grupe
+	--drop table clan
