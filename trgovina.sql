@@ -10,9 +10,9 @@ create table racuni
 
 create table stavke
 	(
-	racun varchar(50) ,
-	proizvod varchar(50),
-	kolicina int
+	racun int ,
+	proizvod int,
+	kolicina decimal(5,3)
 	);
 
 create table proizvodi
@@ -21,3 +21,5 @@ create table proizvodi
 	naziv varchar(50),
 	cijena decimal(18,2)
 	);
+
+	---drop table stavke
