@@ -29,7 +29,7 @@ create table grupe
 create table clanovi
 	(
 	grupa int,
-	polaznik varchar (20),
+	polaznik varchar (20)
 	);
 
 	--drop table clan
